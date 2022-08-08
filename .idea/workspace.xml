@@ -4,17 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1d0c0b1-1a73-4c87-aec2-d7f9252435a1" name="Default Changelist" comment="" />
+    <list default="true" id="c1d0c0b1-1a73-4c87-aec2-d7f9252435a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/tw/egh/Deck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/tw/egh/card/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/tw/egh/card/colorCard/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/tw/egh/card/colorCard/ColorCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/tw/egh/card/colorCard/DrawTwoCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/tw/egh/card/colorCard/Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/tw/egh/card/colorCard/NumberCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/tw/egh/card/colorCard/ReverseCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/tw/egh/card/colorCard/SkipCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/tw/egh/card/specialCard/WildCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/tw/egh/card/specialCard/WildDrawFourCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/test/java/tw/egh/DeckTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2Cfh0d5745JMGXbfK86g6saIkSp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,6 +55,108 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="tw.egh" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.DeckTest">
+    <configuration name="DeckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="domain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tw.egh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tw.egh" />
+      <option name="MAIN_CLASS_NAME" value="tw.egh.DeckTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeckTest.whenGetStandardCards108_thenHas1YellowZeroNumberCardsBeSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="domain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tw.egh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tw.egh" />
+      <option name="MAIN_CLASS_NAME" value="tw.egh.DeckTest" />
+      <option name="METHOD_NAME" value="whenGetStandardCards108_thenHas1YellowZeroNumberCardsBeSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeckTest.whenGetStandardCards108_thenHas76AllColorNumberCardsBeSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="domain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tw.egh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tw.egh" />
+      <option name="MAIN_CLASS_NAME" value="tw.egh.DeckTest" />
+      <option name="METHOD_NAME" value="whenGetStandardCards108_thenHas76AllColorNumberCardsBeSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeckTest.whenGetStandardCards108_thenHasNineteenYellowNumberCardsBeSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="domain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tw.egh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tw.egh" />
+      <option name="MAIN_CLASS_NAME" value="tw.egh.DeckTest" />
+      <option name="METHOD_NAME" value="whenGetStandardCards108_thenHasNineteenYellowNumberCardsBeSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeckTest.whenGetStandardCards108_thenHasThreeYellowSkipCardsBeFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="domain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tw.egh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tw.egh" />
+      <option name="MAIN_CLASS_NAME" value="tw.egh.DeckTest" />
+      <option name="METHOD_NAME" value="whenGetStandardCards108_thenHasThreeYellowSkipCardsBeFail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DeckTest" />
+        <item itemvalue="JUnit.DeckTest.whenGetStandardCards108_thenHas1YellowZeroNumberCardsBeSuccess" />
+        <item itemvalue="JUnit.DeckTest.whenGetStandardCards108_thenHas76AllColorNumberCardsBeSuccess" />
+        <item itemvalue="JUnit.DeckTest.whenGetStandardCards108_thenHasNineteenYellowNumberCardsBeSuccess" />
+        <item itemvalue="JUnit.DeckTest.whenGetStandardCards108_thenHasThreeYellowSkipCardsBeFail" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -40,10 +174,23 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
